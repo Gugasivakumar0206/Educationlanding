@@ -6,6 +6,9 @@
   <title>EduCoaching Landing Page</title>
   <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
   <style>
+    html {
+      scroll-behavior: smooth;
+    }
     body {
       font-family: 'Segoe UI', sans-serif;
     }
@@ -18,10 +21,11 @@
     <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
       <div class="text-xl font-bold text-blue-600">EduDirectory</div>
       <nav class="hidden md:flex space-x-6 font-medium">
-        <a href="#" class="text-gray-700 hover:text-blue-500">Home</a>
-        <a href="#" class="text-gray-700 hover:text-blue-500">About</a>
-        <a href="#" class="text-gray-700 hover:text-blue-500">Courses</a>
-        <a href="#" class="text-gray-700 hover:text-blue-500">Contact</a>
+        <a href="#hero" class="text-gray-700 hover:text-blue-500">Home</a>
+        <a href="#why-learn" class="text-gray-700 hover:text-blue-500">About</a>
+        <a href="#courses" class="text-gray-700 hover:text-blue-500">Courses</a>
+        <a href="#testimonials" class="text-gray-700 hover:text-blue-500">Testimonials</a>
+        <a href="#footer" class="text-gray-700 hover:text-blue-500">Contact</a>
       </nav>
       <div class="space-x-4 hidden md:flex">
         <button class="text-gray-700">Login</button>
@@ -31,7 +35,7 @@
   </header>
 
   <!-- Hero Section -->
-  <section class="bg-gradient-to-r from-indigo-700 to-purple-700 text-white py-16 md:py-28">
+  <section id="hero" class="bg-gradient-to-r from-indigo-700 to-purple-700 text-white py-16 md:py-28">
     <div class="max-w-7xl mx-auto px-6 flex flex-col-reverse md:flex-row items-center gap-10">
       <div class="md:w-1/2 text-center md:text-left">
         <h2 class="text-sm uppercase tracking-widest text-blue-200 mb-2">Successful coaches are visionaries</h2>
@@ -67,7 +71,7 @@
   </section>
 
   <!-- Featured Courses -->
-  <section class="py-16 bg-white">
+  <section id="courses" class="py-16 bg-white">
     <div class="max-w-7xl mx-auto px-6">
       <h2 class="text-2xl md:text-3xl font-bold text-center mb-2">Featured <span class="text-blue-600">Course</span></h2>
       <p class="text-center text-gray-500 mb-10">THE FEATURE COURSES ARE WE INVENTED OUR TEACHING PART</p>
@@ -95,7 +99,7 @@
   </section>
 
   <!-- Why Learn Section -->
-  <section class="bg-gradient-to-r from-indigo-600 to-purple-600 text-white py-16">
+  <section id="why-learn" class="bg-gradient-to-r from-indigo-600 to-purple-600 text-white py-16">
     <div class="max-w-7xl mx-auto px-6 text-center">
       <h2 class="text-2xl md:text-3xl font-bold mb-2">Why <span class="text-blue-200">learn</span> with our courses?</h2>
       <p class="mb-10">We are providing the best courses and top classes. And extraordinary placement training…</p>
@@ -117,7 +121,7 @@
   </section>
 
   <!-- Testimonials -->
-  <section class="bg-blue-50 py-16">
+  <section id="testimonials" class="bg-blue-50 py-16">
     <div class="max-w-7xl mx-auto px-6 text-center">
       <h2 class="text-2xl md:text-3xl font-bold text-blue-700 mb-4">Testimonials</h2>
       <p class="text-gray-600 mb-10">What our student say about us</p>
@@ -142,7 +146,7 @@
   </section>
 
   <!-- Footer -->
-  <footer class="bg-gradient-to-r from-purple-700 to-indigo-700 text-white pt-10 pb-6">
+  <footer id="footer" class="bg-gradient-to-r from-purple-700 to-indigo-700 text-white pt-10 pb-6">
     <div class="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-4 gap-8">
       <div>
         <h4 class="font-bold text-lg mb-4">Connect</h4>
